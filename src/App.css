@@ -1,0 +1,32 @@
+.list {
+  text-align: right;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  margin: auto;
+}
+
+.edit-form {
+  margin: auto;
+}
+
+.filter-hover {
+  background: white; 
+  transition: max-height 0.5s;
+}
+
+.is-closed {
+  max-height: 0;
+}
+
+.is-open {
+  max-height: 200px;
+}
+
+.form-error-text {
+  color: darkred;
+  font-size: 70%;
+  vertical-align: text-top;
+}
